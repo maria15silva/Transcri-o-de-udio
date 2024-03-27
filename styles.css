@@ -155,7 +155,7 @@ footer {
   }
   .categoryCard {
     width: 400px;
-    height: 500px;
+    height: 530px;
     border: 2px solid transparent;
     border-radius: 10px;
     transition: 0.5s;
@@ -208,6 +208,18 @@ footer {
 
 .categoryCard p {
   text-align: justify; /* Justificar o texto */
+}
+
+.container-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/* Adicionei um ID ao contêiner principal */
+#main-container {
+  max-width: 1200px; /* Defina a largura máxima conforme necessário */
+  width: 100%;
+  padding: 0 20px; /* Adicione algum espaço às margens laterais */
 }
 
 
